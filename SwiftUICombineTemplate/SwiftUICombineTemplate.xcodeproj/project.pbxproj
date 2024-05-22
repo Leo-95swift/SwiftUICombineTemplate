@@ -15,6 +15,9 @@
 		013220282BFD00C400F3A2E9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013220272BFD00C400F3A2E9 /* Colors.xcassets */; };
 		0132202E2BFD159500F3A2E9 /* CancellableSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132202D2BFD159500F3A2E9 /* CancellableSignInViewModel.swift */; };
 		013220302BFD159C00F3A2E9 /* CancellableSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132202F2BFD159C00F3A2E9 /* CancellableSignInView.swift */; };
+		013220362BFDC67000F3A2E9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220352BFDC67000F3A2E9 /* Product.swift */; };
+		013220382BFDC6BE00F3A2E9 /* MultiplePipelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220372BFDC6BE00F3A2E9 /* MultiplePipelineView.swift */; };
+		0132203A2BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220392BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		013220272BFD00C400F3A2E9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		0132202D2BFD159500F3A2E9 /* CancellableSignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableSignInViewModel.swift; sourceTree = "<group>"; };
 		0132202F2BFD159C00F3A2E9 /* CancellableSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellableSignInView.swift; sourceTree = "<group>"; };
+		013220352BFDC67000F3A2E9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		013220372BFDC6BE00F3A2E9 /* MultiplePipelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineView.swift; sourceTree = "<group>"; };
+		013220392BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 			children = (
 				0132201F2BFCFC9200F3A2E9 /* SignInModule */,
 				013220292BFD156400F3A2E9 /* CancellableSignInModule */,
+				013220312BFDC61D00F3A2E9 /* MultiplePipelineModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -163,6 +170,40 @@
 		0132202C2BFD158000F3A2E9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013220312BFDC61D00F3A2E9 /* MultiplePipelineModule */ = {
+			isa = PBXGroup;
+			children = (
+				013220342BFDC63B00F3A2E9 /* Model */,
+				013220332BFDC63600F3A2E9 /* View */,
+				013220322BFDC63100F3A2E9 /* ViewModel */,
+			);
+			path = MultiplePipelineModule;
+			sourceTree = "<group>";
+		};
+		013220322BFDC63100F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013220392BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013220332BFDC63600F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013220372BFDC6BE00F3A2E9 /* MultiplePipelineView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		013220342BFDC63B00F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				013220352BFDC67000F3A2E9 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -238,11 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0132203A2BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift in Sources */,
 				013220302BFD159C00F3A2E9 /* CancellableSignInView.swift in Sources */,
 				013220112BFCF9F000F3A2E9 /* SignInView.swift in Sources */,
 				0132200F2BFCF9F000F3A2E9 /* SwiftUICombineTemplateApp.swift in Sources */,
 				0132202E2BFD159500F3A2E9 /* CancellableSignInViewModel.swift in Sources */,
 				013220242BFCFCD900F3A2E9 /* SignInViewModel.swift in Sources */,
+				013220382BFDC6BE00F3A2E9 /* MultiplePipelineView.swift in Sources */,
+				013220362BFDC67000F3A2E9 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
