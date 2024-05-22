@@ -18,6 +18,8 @@
 		013220362BFDC67000F3A2E9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220352BFDC67000F3A2E9 /* Product.swift */; };
 		013220382BFDC6BE00F3A2E9 /* MultiplePipelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220372BFDC6BE00F3A2E9 /* MultiplePipelineView.swift */; };
 		0132203A2BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220392BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift */; };
+		013220402BFDCDE900F3A2E9 /* GuessTheNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132203F2BFDCDE900F3A2E9 /* GuessTheNumberView.swift */; };
+		013220422BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220412BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		013220352BFDC67000F3A2E9 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		013220372BFDC6BE00F3A2E9 /* MultiplePipelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineView.swift; sourceTree = "<group>"; };
 		013220392BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineViewModel.swift; sourceTree = "<group>"; };
+		0132203F2BFDCDE900F3A2E9 /* GuessTheNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberView.swift; sourceTree = "<group>"; };
+		013220412BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				0132201F2BFCFC9200F3A2E9 /* SignInModule */,
 				013220292BFD156400F3A2E9 /* CancellableSignInModule */,
 				013220312BFDC61D00F3A2E9 /* MultiplePipelineModule */,
+				0132203B2BFDCD4100F3A2E9 /* GuessTheNumberModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -208,6 +213,39 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		0132203B2BFDCD4100F3A2E9 /* GuessTheNumberModule */ = {
+			isa = PBXGroup;
+			children = (
+				0132203E2BFDCDC600F3A2E9 /* Model */,
+				0132203D2BFDCDBB00F3A2E9 /* View */,
+				0132203C2BFDCDB100F3A2E9 /* ViewModel */,
+			);
+			path = GuessTheNumberModule;
+			sourceTree = "<group>";
+		};
+		0132203C2BFDCDB100F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013220412BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0132203D2BFDCDBB00F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0132203F2BFDCDE900F3A2E9 /* GuessTheNumberView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0132203E2BFDCDC600F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,10 +318,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0132203A2BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift in Sources */,
+				013220422BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift in Sources */,
 				013220302BFD159C00F3A2E9 /* CancellableSignInView.swift in Sources */,
 				013220112BFCF9F000F3A2E9 /* SignInView.swift in Sources */,
 				0132200F2BFCF9F000F3A2E9 /* SwiftUICombineTemplateApp.swift in Sources */,
 				0132202E2BFD159500F3A2E9 /* CancellableSignInViewModel.swift in Sources */,
+				013220402BFDCDE900F3A2E9 /* GuessTheNumberView.swift in Sources */,
 				013220242BFCFCD900F3A2E9 /* SignInViewModel.swift in Sources */,
 				013220382BFDC6BE00F3A2E9 /* MultiplePipelineView.swift in Sources */,
 				013220362BFDC67000F3A2E9 /* Product.swift in Sources */,
