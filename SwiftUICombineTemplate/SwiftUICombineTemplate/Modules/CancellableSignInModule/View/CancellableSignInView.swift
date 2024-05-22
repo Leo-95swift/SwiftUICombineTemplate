@@ -1,5 +1,5 @@
 //
-//  SignInView.swift
+//  CancellableSignInView.swift
 //  SwiftUICombineTemplate
 //
 //  Created by Levon Shaxbazyan on 21.05.24.
@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct SignInView: View {
+struct CancellableSignInView: View {
     
     // MARK: - Constants
     
     enum Constants {
         static let bankLogo = "bankLogo"
     }
-
-    @StateObject var viewModel = SignInViewModel()
+    
+    @StateObject var viewModel = CancellableSignInViewModel()
     @State var emailValidation = ""
     @State var passwordValidation = ""
 
@@ -29,16 +29,29 @@ struct SignInView: View {
             VStack {
                 Spacer()
                     .frame(height: 80)
+                
                 Image(Constants.bankLogo)
+                
                 Spacer()
                     .frame(height: 60)
+                
                 VStack(spacing: 5) {
                     emailView
                     passwordView
                 }
+                
+                Text(viewModel.validationStatus)
+                
                 Spacer()
                     .frame(height: 40)
+                
                 signInButtonView
+                
+                Spacer()
+                    .frame(height: 40)
+                
+                resetButton
+                
                 Spacer()
             }
         }
@@ -86,8 +99,19 @@ struct SignInView: View {
         )
     }
     
+    private var resetButton: some View {
+        Button {
+            viewModel.cancellable?.cancel()
+            viewModel.validationStatus = "Вход отменён"
+        } label: {
+            Text("Reset")
+        }
+        .foregroundColor(.blue)
+    }
+    
 }
 
 #Preview {
-    SignInView()
+    CancellableSignInView()
 }
+
