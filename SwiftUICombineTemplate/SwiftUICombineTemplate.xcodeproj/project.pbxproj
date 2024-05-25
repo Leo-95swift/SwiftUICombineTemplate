@@ -20,6 +20,16 @@
 		0132203A2BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220392BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift */; };
 		013220402BFDCDE900F3A2E9 /* GuessTheNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132203F2BFDCDE900F3A2E9 /* GuessTheNumberView.swift */; };
 		013220422BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220412BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift */; };
+		013220D72C006E0100F3A2E9 /* EmptyPublisherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220D62C006E0100F3A2E9 /* EmptyPublisherViewModel.swift */; };
+		013220D92C006E2100F3A2E9 /* EmptyPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220D82C006E2100F3A2E9 /* EmptyPublisherView.swift */; };
+		013220DE2C006F0600F3A2E9 /* FailPublisherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220DD2C006F0600F3A2E9 /* FailPublisherViewModel.swift */; };
+		013220E12C006F2D00F3A2E9 /* InvalideAgeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220E02C006F2D00F3A2E9 /* InvalideAgeError.swift */; };
+		013220E32C006F4800F3A2E9 /* FailPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220E22C006F4800F3A2E9 /* FailPublisherView.swift */; };
+		013220E82C00714E00F3A2E9 /* FuturePublisherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220E72C00714E00F3A2E9 /* FuturePublisherViewModel.swift */; };
+		013220EA2C0071A200F3A2E9 /* PrimeCheckingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220E92C0071A200F3A2E9 /* PrimeCheckingError.swift */; };
+		013220ED2C0071D700F3A2E9 /* FuturePublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220EC2C0071D700F3A2E9 /* FuturePublisherView.swift */; };
+		013220F22C00729300F3A2E9 /* JustSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220F12C00729300F3A2E9 /* JustSequenceView.swift */; };
+		013220F42C00729B00F3A2E9 /* JustSequenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220F32C00729B00F3A2E9 /* JustSequenceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,16 @@
 		013220392BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplePipelineViewModel.swift; sourceTree = "<group>"; };
 		0132203F2BFDCDE900F3A2E9 /* GuessTheNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberView.swift; sourceTree = "<group>"; };
 		013220412BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberViewModel.swift; sourceTree = "<group>"; };
+		013220D62C006E0100F3A2E9 /* EmptyPublisherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPublisherViewModel.swift; sourceTree = "<group>"; };
+		013220D82C006E2100F3A2E9 /* EmptyPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPublisherView.swift; sourceTree = "<group>"; };
+		013220DD2C006F0600F3A2E9 /* FailPublisherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailPublisherViewModel.swift; sourceTree = "<group>"; };
+		013220E02C006F2D00F3A2E9 /* InvalideAgeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalideAgeError.swift; sourceTree = "<group>"; };
+		013220E22C006F4800F3A2E9 /* FailPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailPublisherView.swift; sourceTree = "<group>"; };
+		013220E72C00714E00F3A2E9 /* FuturePublisherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturePublisherViewModel.swift; sourceTree = "<group>"; };
+		013220E92C0071A200F3A2E9 /* PrimeCheckingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCheckingError.swift; sourceTree = "<group>"; };
+		013220EC2C0071D700F3A2E9 /* FuturePublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturePublisherView.swift; sourceTree = "<group>"; };
+		013220F12C00729300F3A2E9 /* JustSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustSequenceView.swift; sourceTree = "<group>"; };
+		013220F32C00729B00F3A2E9 /* JustSequenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustSequenceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +125,8 @@
 		0132201E2BFCFC8800F3A2E9 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				0132201F2BFCFC9200F3A2E9 /* SignInModule */,
-				013220292BFD156400F3A2E9 /* CancellableSignInModule */,
-				013220312BFDC61D00F3A2E9 /* MultiplePipelineModule */,
-				0132203B2BFDCD4100F3A2E9 /* GuessTheNumberModule */,
+				013220D12C006D2200F3A2E9 /* Tasks_1-5_Module */,
+				013220D22C006D3D00F3A2E9 /* Tasks_6-9_Module */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -246,6 +264,146 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		013220D12C006D2200F3A2E9 /* Tasks_1-5_Module */ = {
+			isa = PBXGroup;
+			children = (
+				0132201F2BFCFC9200F3A2E9 /* SignInModule */,
+				013220292BFD156400F3A2E9 /* CancellableSignInModule */,
+				013220312BFDC61D00F3A2E9 /* MultiplePipelineModule */,
+				0132203B2BFDCD4100F3A2E9 /* GuessTheNumberModule */,
+			);
+			path = "Tasks_1-5_Module";
+			sourceTree = "<group>";
+		};
+		013220D22C006D3D00F3A2E9 /* Tasks_6-9_Module */ = {
+			isa = PBXGroup;
+			children = (
+				013220D32C006D5A00F3A2E9 /* EmptyPublisherModule */,
+				013220DA2C006E9400F3A2E9 /* FailPublisherModule */,
+				013220E42C00703300F3A2E9 /* FuturePublisherModule */,
+				013220EE2C00722A00F3A2E9 /* JustSequenceModule */,
+			);
+			path = "Tasks_6-9_Module";
+			sourceTree = "<group>";
+		};
+		013220D32C006D5A00F3A2E9 /* EmptyPublisherModule */ = {
+			isa = PBXGroup;
+			children = (
+				013220D52C006DE300F3A2E9 /* View */,
+				013220D42C006DDD00F3A2E9 /* ViewModel */,
+			);
+			path = EmptyPublisherModule;
+			sourceTree = "<group>";
+		};
+		013220D42C006DDD00F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013220D62C006E0100F3A2E9 /* EmptyPublisherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013220D52C006DE300F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013220D82C006E2100F3A2E9 /* EmptyPublisherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		013220DA2C006E9400F3A2E9 /* FailPublisherModule */ = {
+			isa = PBXGroup;
+			children = (
+				013220DF2C006F1D00F3A2E9 /* Model */,
+				013220DC2C006EF400F3A2E9 /* View */,
+				013220DB2C006EB400F3A2E9 /* ViewModel */,
+			);
+			path = FailPublisherModule;
+			sourceTree = "<group>";
+		};
+		013220DB2C006EB400F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013220DD2C006F0600F3A2E9 /* FailPublisherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013220DC2C006EF400F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013220E22C006F4800F3A2E9 /* FailPublisherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		013220DF2C006F1D00F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				013220E02C006F2D00F3A2E9 /* InvalideAgeError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013220E42C00703300F3A2E9 /* FuturePublisherModule */ = {
+			isa = PBXGroup;
+			children = (
+				013220EB2C0071BD00F3A2E9 /* Model */,
+				013220E62C00713100F3A2E9 /* View */,
+				013220E52C00712C00F3A2E9 /* ViewModel */,
+			);
+			path = FuturePublisherModule;
+			sourceTree = "<group>";
+		};
+		013220E52C00712C00F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013220E72C00714E00F3A2E9 /* FuturePublisherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013220E62C00713100F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013220EC2C0071D700F3A2E9 /* FuturePublisherView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		013220EB2C0071BD00F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				013220E92C0071A200F3A2E9 /* PrimeCheckingError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		013220EE2C00722A00F3A2E9 /* JustSequenceModule */ = {
+			isa = PBXGroup;
+			children = (
+				013220F02C00727400F3A2E9 /* View */,
+				013220EF2C00726600F3A2E9 /* ViewModel */,
+			);
+			path = JustSequenceModule;
+			sourceTree = "<group>";
+		};
+		013220EF2C00726600F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013220F32C00729B00F3A2E9 /* JustSequenceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013220F02C00727400F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013220F12C00729300F3A2E9 /* JustSequenceView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -317,15 +475,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013220ED2C0071D700F3A2E9 /* FuturePublisherView.swift in Sources */,
 				0132203A2BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift in Sources */,
+				013220D72C006E0100F3A2E9 /* EmptyPublisherViewModel.swift in Sources */,
 				013220422BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift in Sources */,
+				013220F22C00729300F3A2E9 /* JustSequenceView.swift in Sources */,
+				013220F42C00729B00F3A2E9 /* JustSequenceViewModel.swift in Sources */,
+				013220DE2C006F0600F3A2E9 /* FailPublisherViewModel.swift in Sources */,
 				013220302BFD159C00F3A2E9 /* CancellableSignInView.swift in Sources */,
+				013220E32C006F4800F3A2E9 /* FailPublisherView.swift in Sources */,
 				013220112BFCF9F000F3A2E9 /* SignInView.swift in Sources */,
 				0132200F2BFCF9F000F3A2E9 /* SwiftUICombineTemplateApp.swift in Sources */,
 				0132202E2BFD159500F3A2E9 /* CancellableSignInViewModel.swift in Sources */,
+				013220D92C006E2100F3A2E9 /* EmptyPublisherView.swift in Sources */,
 				013220402BFDCDE900F3A2E9 /* GuessTheNumberView.swift in Sources */,
+				013220E12C006F2D00F3A2E9 /* InvalideAgeError.swift in Sources */,
+				013220EA2C0071A200F3A2E9 /* PrimeCheckingError.swift in Sources */,
 				013220242BFCFCD900F3A2E9 /* SignInViewModel.swift in Sources */,
 				013220382BFDC6BE00F3A2E9 /* MultiplePipelineView.swift in Sources */,
+				013220E82C00714E00F3A2E9 /* FuturePublisherViewModel.swift in Sources */,
 				013220362BFDC67000F3A2E9 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
