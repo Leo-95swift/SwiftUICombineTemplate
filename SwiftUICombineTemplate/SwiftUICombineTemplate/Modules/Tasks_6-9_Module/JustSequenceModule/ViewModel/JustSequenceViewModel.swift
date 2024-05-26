@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 
-class TaskViewModel: ObservableObject {
+class JustSequenceViewModel: ObservableObject {
     @Published var dataToView: [String] = []
     var currentFruitIndex = 0
     var additionalFruits = ["Fruit 4", "Fruit 5", "Fruit 6"]

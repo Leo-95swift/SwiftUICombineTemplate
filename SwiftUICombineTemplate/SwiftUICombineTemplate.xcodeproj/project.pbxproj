@@ -30,6 +30,10 @@
 		013220ED2C0071D700F3A2E9 /* FuturePublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220EC2C0071D700F3A2E9 /* FuturePublisherView.swift */; };
 		013220F22C00729300F3A2E9 /* JustSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220F12C00729300F3A2E9 /* JustSequenceView.swift */; };
 		013220F42C00729B00F3A2E9 /* JustSequenceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013220F32C00729B00F3A2E9 /* JustSequenceViewModel.swift */; };
+		013221242C01AE3A00F3A2E9 /* PassthroughSubjectTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221232C01AE3A00F3A2E9 /* PassthroughSubjectTimerViewModel.swift */; };
+		013221282C01AE5100F3A2E9 /* PassthroughSubjectTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221272C01AE5100F3A2E9 /* PassthroughSubjectTimerView.swift */; };
+		0132213F2C03669A00F3A2E9 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132213E2C03669A00F3A2E9 /* ViewState.swift */; };
+		013221412C0366C700F3A2E9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013221402C0366C700F3A2E9 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +61,10 @@
 		013220EC2C0071D700F3A2E9 /* FuturePublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturePublisherView.swift; sourceTree = "<group>"; };
 		013220F12C00729300F3A2E9 /* JustSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustSequenceView.swift; sourceTree = "<group>"; };
 		013220F32C00729B00F3A2E9 /* JustSequenceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustSequenceViewModel.swift; sourceTree = "<group>"; };
+		013221232C01AE3A00F3A2E9 /* PassthroughSubjectTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubjectTimerViewModel.swift; sourceTree = "<group>"; };
+		013221272C01AE5100F3A2E9 /* PassthroughSubjectTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubjectTimerView.swift; sourceTree = "<group>"; };
+		0132213E2C03669A00F3A2E9 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		013221402C0366C700F3A2E9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 			children = (
 				013220D12C006D2200F3A2E9 /* Tasks_1-5_Module */,
 				013220D22C006D3D00F3A2E9 /* Tasks_6-9_Module */,
+				013221212C01ADCB00F3A2E9 /* Tasks_10-11_Module */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -404,6 +413,49 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		013221212C01ADCB00F3A2E9 /* Tasks_10-11_Module */ = {
+			isa = PBXGroup;
+			children = (
+				013221222C01AE1200F3A2E9 /* PassthroughSubjectTimerModule */,
+			);
+			path = "Tasks_10-11_Module";
+			sourceTree = "<group>";
+		};
+		013221222C01AE1200F3A2E9 /* PassthroughSubjectTimerModule */ = {
+			isa = PBXGroup;
+			children = (
+				0132213D2C03668D00F3A2E9 /* Model */,
+				013221262C01AE4500F3A2E9 /* View */,
+				013221252C01AE3D00F3A2E9 /* ViewModel */,
+			);
+			path = PassthroughSubjectTimerModule;
+			sourceTree = "<group>";
+		};
+		013221252C01AE3D00F3A2E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				013221232C01AE3A00F3A2E9 /* PassthroughSubjectTimerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		013221262C01AE4500F3A2E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				013221272C01AE5100F3A2E9 /* PassthroughSubjectTimerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0132213D2C03668D00F3A2E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0132213E2C03669A00F3A2E9 /* ViewState.swift */,
+				013221402C0366C700F3A2E9 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -479,15 +531,19 @@
 				0132203A2BFDC6E900F3A2E9 /* MultiplePipelineViewModel.swift in Sources */,
 				013220D72C006E0100F3A2E9 /* EmptyPublisherViewModel.swift in Sources */,
 				013220422BFDCE0F00F3A2E9 /* GuessTheNumberViewModel.swift in Sources */,
+				013221412C0366C700F3A2E9 /* Item.swift in Sources */,
 				013220F22C00729300F3A2E9 /* JustSequenceView.swift in Sources */,
 				013220F42C00729B00F3A2E9 /* JustSequenceViewModel.swift in Sources */,
 				013220DE2C006F0600F3A2E9 /* FailPublisherViewModel.swift in Sources */,
 				013220302BFD159C00F3A2E9 /* CancellableSignInView.swift in Sources */,
+				0132213F2C03669A00F3A2E9 /* ViewState.swift in Sources */,
+				013221282C01AE5100F3A2E9 /* PassthroughSubjectTimerView.swift in Sources */,
 				013220E32C006F4800F3A2E9 /* FailPublisherView.swift in Sources */,
 				013220112BFCF9F000F3A2E9 /* SignInView.swift in Sources */,
 				0132200F2BFCF9F000F3A2E9 /* SwiftUICombineTemplateApp.swift in Sources */,
 				0132202E2BFD159500F3A2E9 /* CancellableSignInViewModel.swift in Sources */,
 				013220D92C006E2100F3A2E9 /* EmptyPublisherView.swift in Sources */,
+				013221242C01AE3A00F3A2E9 /* PassthroughSubjectTimerViewModel.swift in Sources */,
 				013220402BFDCDE900F3A2E9 /* GuessTheNumberView.swift in Sources */,
 				013220E12C006F2D00F3A2E9 /* InvalideAgeError.swift in Sources */,
 				013220EA2C0071A200F3A2E9 /* PrimeCheckingError.swift in Sources */,

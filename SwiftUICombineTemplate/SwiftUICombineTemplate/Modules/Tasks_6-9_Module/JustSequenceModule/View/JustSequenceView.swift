@@ -19,7 +19,7 @@ struct JustSequenceView: View {
     
     // MARK: - StateObjects
 
-    @StateObject var viewModel = TaskViewModel()
+    @StateObject var viewModel = JustSequenceViewModel()
     
     // MARK: - Body
 
