@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUICombineTemplateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            URLSessionDataTaskPublisherView()
         }
     }
 }
